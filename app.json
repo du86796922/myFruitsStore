@@ -1,12 +1,41 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/user_details/user_details"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#E4393C",
+    "navigationBarTitleText": "糖心の一天",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":"true",
+    "onReachBottomDistance":30
+  },
+  "tabBar": {
+    "color":"#fff",
+    "selectedColor":"#FFFFCC",
+    "backgroundColor":"#e4393c",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"res/images/apple.png",
+        "selectedIconPath":"res/images/apple_active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "订单",
+        "iconPath": "res/images/huolongguo.png",
+        "selectedIconPath":"res/images/huolongguo_active.png"
+      },
+      {
+        "pagePath": "pages/user_details/user_details",
+        "text": "我的",
+        "iconPath": "res/images/pear.png",
+        "selectedIconPath": "res/images/pear_active.png"
+      }
+    ]
   }
 }
