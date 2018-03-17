@@ -8,6 +8,7 @@
     </block>
   </view>
   <view class="usermotto">
+    <!-- 简单直接的数据绑定 -->
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>

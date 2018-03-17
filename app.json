@@ -9,7 +9,7 @@
     "navigationBarBackgroundColor": "#E4393C",
     "navigationBarTitleText": "糖心の一天",
     "navigationBarTextStyle":"white",
-    "enablePullDownRefresh":"true",
+    "enablePullDownRefresh":true,
     "onReachBottomDistance":30
   },
   "tabBar": {
